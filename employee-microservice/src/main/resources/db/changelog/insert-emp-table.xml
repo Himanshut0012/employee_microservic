@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+		
+		<changeSet id="insert-employees" author="himanshu">
+		<insert tableName="employee">
+			<column name="emp_name" value="Sumit Shekhar"/>
+			<column name="email_id" value="sk.shekhar@gmail.com"/>
+			<column name="mobile_no" value="9663478065"/>
+			<column name="department" value="Software Engineer"/>
+			<column name="record_status" value="W"/>
+		</insert>
+		<insert tableName="employee">
+			<column name="emp_name" value="Himanshu Tripathi"/>
+			<column name="email_id" value="himanshu.tripathi@gmail.com"/>
+			<column name="mobile_no" value="9663478066"/>
+			<column name="department" value="Senior Software Engineer"/>
+			<column name="record_status" value="W"/>
+		</insert>
+		<insert tableName="employee">
+			<column name="emp_name" value="Akshay Kolla"/>
+			<column name="email_id" value="akshay.kolla@gmail.com"/>
+			<column name="mobile_no" value="9663478067"/>
+			<column name="department" value="Software Engineer"/>
+			<column name="record_status" value="W"/>
+		</insert>
+		<insert tableName="employee">
+			<column name="emp_name" value=" Geetha sai"/>
+			<column name="email_id" value="geetha.sai@gmail.com"/>
+			<column name="mobile_no" value="9663478060"/>
+			<column name="department" value="Senior Software Engineer"/>
+			<column name="record_status" value="W"/>
+		</insert>
+		<insert tableName="employee">
+			<column name="emp_name" value="Rahul Kumar"/>
+			<column name="email_id" value="rahul.kumar@gmail.com"/>
+			<column name="mobile_no" value="9663478061"/>
+			<column name="department" value="Senior Software Engineer"/>
+			<column name="record_status" value="W"/>
+		</insert>
+	</changeSet>
+		
+		</databaseChangeLog>
